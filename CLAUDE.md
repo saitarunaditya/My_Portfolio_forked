@@ -14,7 +14,7 @@ A full-stack developer portfolio website with a built-in CMS admin panel. The pu
 - **NextAuth v4** — Credentials provider only, single `ADMIN_PASSWORD` env var, JWT session
 - **Resend** — transactional email for contact form
 - **framer-motion v12** — animations
-- **react-icons** (fa6) — social brand icons (lucide-react v1 removed Github/Linkedin/Twitter)
+- **react-icons** (fa6) — social brand icons (lucide-react v1 removed Github/Linkedin/leetcode)
 
 ## Critical gotchas
 
@@ -156,7 +156,7 @@ NEXTAUTH_SECRET=        # openssl rand -base64 32
 ADMIN_PASSWORD=         # admin panel password (use single quotes if it contains $)
 RESEND_API_KEY=         # from resend.com
 RESEND_FROM_EMAIL=      # sender address (onboarding@resend.dev works for dev)
-CONTACT_TO_EMAIL=       # ganapathiramanaz1@gmail.com
+CONTACT_TO_EMAIL=       # saitharunaditya08@gmail.com
 ```
 
 ## Design

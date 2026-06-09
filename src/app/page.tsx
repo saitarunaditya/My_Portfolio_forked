@@ -46,7 +46,7 @@ export default async function PortfolioPage() {
           avatarUrl={profile.avatarUrl}
           githubUrl={profile.githubUrl}
           linkedinUrl={profile.linkedinUrl}
-          twitterUrl={profile.twitterUrl}
+          leetcodeUrl={profile.leetcodeUrl}
           email={profile.email}
         />
         <About
@@ -54,7 +54,7 @@ export default async function PortfolioPage() {
           location={profile.location}
           githubUrl={profile.githubUrl}
           linkedinUrl={profile.linkedinUrl}
-          twitterUrl={profile.twitterUrl}
+          leetcodeUrl={profile.leetcodeUrl}
           email={profile.email}
         />
         <Skills skills={skills} />
@@ -68,7 +68,7 @@ export default async function PortfolioPage() {
         name={`${profile.firstName} ${profile.lastName}`}
         githubUrl={profile.githubUrl}
         linkedinUrl={profile.linkedinUrl}
-        twitterUrl={profile.twitterUrl}
+        leetcodeUrl={profile.leetcodeUrl}
         email={profile.email}
       />
     </>
